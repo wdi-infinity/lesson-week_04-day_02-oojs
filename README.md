@@ -202,7 +202,7 @@ class Person {
   }
   // We define any methods accessible to an instance outside of the constructor
   speak() {
-    return `Hello! I'm ${this.name}`;
+    return "Hello! I'm " + this.name;
   }
 }
 
